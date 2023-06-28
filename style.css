@@ -1,10 +1,34 @@
 /* transform: scale(-1, 1) */
+body {
+  background-image: url("images/shopping_street01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
+
+h1,
+h3 {
+  color: blue;
+  text-shadow: 2px 2px 2px white;
+}
+
+.container-all {
+  padding-top: 12px;
+  margin: auto;
+  max-width: 1000px;
+  max-height: 800px
+}
+
+.container-race {
+  border-radius: 24px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 3rem;
+}
 
 .racer-table {
   border: 1px solid lightgray;
   height: 200px;
-  margin: auto;
+  margin-left: 0;
 }
 
 .racer-table td {
@@ -66,4 +90,10 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.taiyaki {
+  width: 170px;
+  height: 150px;
+  margin: auto;
 }

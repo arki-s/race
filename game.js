@@ -7,7 +7,7 @@ document.addEventListener('keyup', (event) => {
       player1.classList.remove("active");
       player1.previousElementSibling.classList.add("active");
     } else {
-      const pl1 = window.confirm("Player1 won!\nHe is already eating a toast but there's always room for dessert!\nClick OK if you want to play again!");
+      const pl1 = window.confirm("The Chick won!\nHe is already eating a toast but there's always room for dessert!\nClick OK if you want to play again!");
       if (pl1 === true) {
         window.location.reload(true);
       }
@@ -24,7 +24,7 @@ document.addEventListener('keyup', (event) => {
       player2.classList.remove("active");
       player2.previousElementSibling.classList.add("active");
     } else {
-      const pl2 = window.confirm("Player2 won!\nEven snails are good at running.\nClick OK if you want to play again!");
+      const pl2 = window.confirm("The snail won!\nEven snails are good at running.\nClick OK if you want to play again!");
       if (pl2 === true) {
         window.location.reload(true);
       }
@@ -41,7 +41,7 @@ document.addEventListener('keyup', (event) => {
       player3.classList.remove("active");
       player3.previousElementSibling.classList.add("active");
     } else {
-      const pl3 = window.confirm("Player3 won!\nClick OK if you want to play again!");
+      const pl3 = window.confirm("The Rabbit won!\nClick OK if you want to play again!");
       if (pl3 === true) {
         window.location.reload(true);
       }
