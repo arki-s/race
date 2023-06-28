@@ -8,7 +8,6 @@ body {
 
 h1,
 h3 {
-  color: blue;
   text-shadow: 2px 2px 2px white;
 }
 
@@ -26,7 +25,7 @@ h3 {
 }
 
 .racer-table {
-  border: 1px solid lightgray;
+  /* border: 1px solid lightgray; */
   height: 200px;
   margin-left: 0;
 }
@@ -34,7 +33,12 @@ h3 {
 .racer-table td {
   height: 100px;
   width: 100px;
-  border: 1px solid lightgray;
+  /* border: 1px solid lightgray; */
+}
+
+#player2-race {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 .racer-table td.active {
@@ -60,37 +64,33 @@ h3 {
   background-position: center;
 }
 
-#goal img {
+/* #goal img {
   opacity: 0.7;
 }
 
 #player1-race td#goal {
-  /* background: url(images/finish.png); */
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 #player2-race td#goal {
-  /* background: url(images/finish.png); */
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 #player1-race td#goal.active {
-  /* background: url(images/player_1.png), url(images/finish.png); */
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 #player2-race td#goal.active {
-  /* background: url(images/player_2.png), url(images/finish.png); */
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-}
+} */
 
 .taiyaki {
   width: 170px;
